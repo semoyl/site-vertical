@@ -43,16 +43,107 @@ header nav a:hover{
 
 #vermelho{
     background-color: tomato;
+    background-image: url(https://i.pinimg.com/originals/94/a5/00/94a50010d15fdb71cec8c6eab80cd546.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#vermelho div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+#vermelho h1{
+    font-size: 128px;
+    top: 45%;
+    color: white;
+    left: 35%;
 }
 #verde{
-    background-color: lightgreen;
+    display: flex;
+    border-bottom: 5px;
+}
+#verde div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#verde img{
+    width: 50%;
+    height: 100%;
+}
+
+#verde h1{
+    font-size: 128px;
+    color: black;
+    left: 60%;
 }
 #azul{
-    background-color: lightblue;
+    display: flex;
+}
+#azul div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#azul img{
+    width: 50%;
+    height: 100%;
+}
+#azul h1{
+    font-size: 128px;
+    color: black;
+    left: -60%;
 }
 #amarelo{
-    background-color: gold;
+    display: flex;
+    flex-direction: column;
 }
+#amarelo div{
+    align-items: center;
+    justify-content: center;
+}
+
+#amarelo h2{
+    font-size: 128px;
+    color: black;
+    text-align: center;
+}
+#amarelo .img{
+    align-items: center;
+    justify-content: center;
+}
+#amarelo img{
+    width: 100%;
+    height: 80%;
+    margin-top: 100px;
+}
+
 #roxo{
-    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+#roxo .img-trunks{
+    height: 80%;
+}
+#roxo img{
+    width: 100%;
+    height: 100%;
+
+}
+
+#roxo h3{
+    font-size: 128px;
+    color: black;
+    text-align: center;
+    max-height: 40%;
 }
